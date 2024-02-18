@@ -8,7 +8,7 @@
 
 # APPROACH : 
     "NOTE : This problem can be solved simple linear search approach also."
-    STEP 1 : Initialize low = 0 and high = n;
+    STEP 1 : Initialize low = 0 and high = n-1;
     STEP 2 : Iterate through the array using a while loop with condition low <= high.
     STEP 3 : Since the array is rotated, there will always be two sections, 
              one will be sorted and another will be unsorted.
