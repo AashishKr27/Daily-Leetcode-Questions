@@ -12,7 +12,7 @@
 # LOGIC:
     -> We can use some bit manipulation techniques to generate our answer.
     -> We know that if the array size is n, then the total number of subsets will be 2^n or (1 << n).
-    -> We will consider 0 as DON'T PICK and ! as PICK.
+    -> We will consider 0 as DON'T PICK and 1 as PICK.
     -> Take example : nums = [1,2,3]
 
           2  1  0 (INDEX)
